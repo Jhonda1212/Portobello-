@@ -7,6 +7,33 @@
     <link href="./dist/output.css" rel="stylesheet"> 
 </head>
 <body>
-   
+   <header class="flex justify-around bg-black sticky top-0 z-50">
+    <img class="w-60" src="img_portobello/logonegro.jfif">
+<ul class="flex items-center gap-10 text-2xl font-bold">
+<li><a class="text-white  hover:text-violet-500 active:bg-violet-500 active:text-white active:p-4 active:rounded-3xl transition hover:scale-105" href="">INICIO</a></li>
+<li><a  class="text-white  hover:text-violet-500  active:bg-violet-500 active:text-white active:p-4 active:rounded-3xl transition hover:scale-105" href="">PRODUCTOS</a></li>
+<li><a class="text-white  hover:text-violet-500  active:bg-violet-500 active:text-white active:p-4 active:rounded-3xl transition hover:scale-105" href="">QUIENES SOMOS?</a></li>
+</ul>
+   </header>
+  <section class="relative h-[800px] w-full overflow-hidden flex flex-col justify-center items-center">
+  
+
+  <div class="absolute inset-0 z-0">
+    <div class="absolute inset-0 bg-[url('../img_portobello/arcangelenstand.jpg')] bg-cover bg-center"></div>
+    <!-- Overlay para el color violeta con opacidad y desenfoque -->
+    <div class="absolute inset-0 bg-violet-500/40 backdrop-blur-sm"></div>
+  </div>
+
+  <!-- Capa de contenido: Totalmente nítida -->
+  <div class="relative z-10 flex flex-col items-center gap-14 px-4 max-w-5xl">
+    <h1 class="text-center text-6xl text-white font-black drop-shadow-lg">
+      REGÍSTRATE PARA SER PARTE DE NOSOTROS Y NO PERDERTE NINGUNA NOVEDAD
+    </h1>
+    <button class="bg-black text-violet-500 font-extrabold rounded-3xl py-4 px-10 text-2xl transition hover:scale-105">
+      REGISTRARME
+    </button>
+  </div>
+
+</section>
 </body>
 </html>
